@@ -41,7 +41,7 @@ public class MainActivity extends Activity {
         luxnow = (TextView) findViewById(R.id.luxnow);
         luxpressed = (TextView) findViewById(R.id.luxpressed);
 
-
+        //light sensor service
         sMgr = (SensorManager)getSystemService(Context.SENSOR_SERVICE);
 
         light = sMgr.getDefaultSensor(Sensor.TYPE_LIGHT);
