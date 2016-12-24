@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@android:color/holo_orange_light">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No Light Sensor Detected"
+        android:padding="10dp"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/background_dark"
+        android:id="@+id/headwifi"
+        />
+
+    <TextView
+        android:layout_below="@+id/headwifi"
+        android:id="@+id/dialog_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="18dp"
+        android:text="You can't use this app. Exit now?"
+        android:textColor="@android:color/background_dark"/>
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/dialog_info">
+        <Button
+            android:id="@+id/dialog_ok"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.50"
+            android:background="@android:color/background_light"
+            android:text="Exit"/>
+    </LinearLayout>
+</RelativeLayout>
