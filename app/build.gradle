@@ -5,7 +5,7 @@ android {
     buildToolsVersion "24.0.0"
 
     defaultConfig {
-        applicationId "com.example.alex.photometer"
+        applicationId "com.meter.alex.photometer"
         minSdkVersion 15
         targetSdkVersion 24
         versionCode 1

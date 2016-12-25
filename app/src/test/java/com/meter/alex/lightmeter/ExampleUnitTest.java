@@ -1,4 +1,4 @@
-package com.example.alex.photometer;
+package com.meter.alex.lightmeter;
 
 import org.junit.Test;
 

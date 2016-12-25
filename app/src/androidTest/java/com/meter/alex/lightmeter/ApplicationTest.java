@@ -1,4 +1,4 @@
-package com.example.alex.photometer;
+package com.meter.alex.lightmeter;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
